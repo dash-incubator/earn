@@ -1,15 +1,16 @@
-# DASH Payment API
+# Dash Earn
 
-## Installation
+Earn Dash by completing a quiz or task related to Dash.
 
-### Using Docker Compose
+## Install
 
-[Docker Compose](https://docs.docker.com/compose/install/)
+### Step 1
+Install [Docker Compose](https://docs.docker.com/compose/install/)
 
-#### Run
+### Step 2
+Upload environment file `/var/www/.env`
+
+## Run
 ```bash
-$ docker-compose -f docker-compose.yml up -d
+$ docker-compose -f docker-compose.yml --env-file ./.env up -d
 ```
-
-#### App will run at:
-http://localhost
